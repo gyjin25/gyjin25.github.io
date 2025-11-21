@@ -41,3 +41,36 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ============================================
+   Custom overrides by Thomas
+   ============================================ */
+
+/* Global font */
+body {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+}
+
+/* Heading sizes */
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+
+/* Clean links: no underline, sky-blue */
+a {
+  text-decoration: none;
+  color: #1E90FF; /* sky blue */
+}
+
+a:hover {
+  text-decoration: underline;  /* delete if you want zero underline */
+  color: #0A70D1;
+}
