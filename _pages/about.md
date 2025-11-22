@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Economics at [University of Illinois, Urbana-Champaign (UIUC)](https://economics.illinois.edu).
+I am a PhD student in Economics at <a href="https://economics.illinois.edu" style="text-decoration:none;">University of Illinois, Urbana-Champaign (UIUC)</a>.
 
 My fields of interest are Econometrics and Machine Learning. 
 

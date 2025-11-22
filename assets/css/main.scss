@@ -8,6 +8,9 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -73,4 +76,58 @@ a {
 a:hover {
   text-decoration: underline;  /* delete if you want zero underline */
   color: #0A70D1;
+}
+
+
+/* ============================================
+   Modern Styling Overrides (Thomas)
+   ============================================ */
+
+/* Global font and layout */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Clean headings */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+h1 { font-size: 28px; margin-bottom: 12px; }
+h2 { font-size: 22px; margin-top: 24px; }
+h3 { font-size: 18px; }
+
+/* Modern link style (sky blue, no underline) */
+a {
+  text-decoration: none;
+  color: #1E90FF; /* modern sky blue */
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0A70D1; /* darker hover blue */
+  text-decoration: none;
+}
+
+/* Cleaner spacing below sections */
+.page__content p,
+.page__content ul,
+.page__content ol {
+  margin-bottom: 14px;
+}
+
+/* Increase font size in the left profile sidebar */
+.author__content {
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.author__name {
+  font-size: 22px !important;
+  font-weight: 600;
 }
