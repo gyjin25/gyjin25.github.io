@@ -50,80 +50,80 @@
    Custom Overrides by Thomas — FINAL LATO VERSION
    ============================================ */
 
-/* Global font: Lato (clean + academic) */
-body,
-.page__content,
-.page__content p,
-.page__content li,
-.author__content,
-.author__urls {
-  font-family: "Lato", Helvetica, Arial, sans-serif !important;
-  font-size: 17px;          /* slightly bigger, more readable */
-  line-height: 1.65;
-  color: #222;
-}
+// /* Global font: Lato (clean + academic) */
+// body,
+// .page__content,
+// .page__content p,
+// .page__content li,
+// .author__content,
+// .author__urls {
+//   font-family: "Lato", Helvetica, Arial, sans-serif !important;
+//   font-size: 17px;          /* slightly bigger, more readable */
+//   line-height: 1.65;
+//   color: #222;
+// }
 
-/* Headings */
-.page__content h1,
-.page__content h2,
-.page__content h3,
-.page__content h4 {
-  font-family: "Lato", Helvetica, Arial, sans-serif !important;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-  color: #111;
-}
+// /* Headings */
+// .page__content h1,
+// .page__content h2,
+// .page__content h3,
+// .page__content h4 {
+//   font-family: "Lato", Helvetica, Arial, sans-serif !important;
+//   font-weight: 700;
+//   letter-spacing: -0.015em;
+//   color: #111;
+// }
 
-.page__content h1 { font-size: 28px !important; margin-bottom: 12px; }
-.page__content h2 { font-size: 22px !important; margin-top: 24px; }
-.page__content h3 { font-size: 18px !important; }
+// .page__content h1 { font-size: 28px !important; margin-bottom: 12px; }
+// .page__content h2 { font-size: 22px !important; margin-top: 24px; }
+// .page__content h3 { font-size: 18px !important; }
 
-/* Modern sky-blue links */
-a {
-  text-decoration: none !important;
-  color: #1E90FF;
-  font-weight: 500;
-}
+// /* Modern sky-blue links */
+// a {
+//   text-decoration: none !important;
+//   color: #1E90FF;
+//   font-weight: 500;
+// }
 
-a:hover {
-  color: #0A70D1;
-  text-decoration: none !important;
-}
+// a:hover {
+//   color: #0A70D1;
+//   text-decoration: none !important;
+// }
 
-/* Spacing between paragraphs and lists */
-.page__content p,
-.page__content ul,
-.page__content ol {
-  margin-bottom: 14px;
-}
+// /* Spacing between paragraphs and lists */
+// .page__content p,
+// .page__content ul,
+// .page__content ol {
+//   margin-bottom: 14px;
+// }
 
 /* ============================================
    LEFT SIDEBAR FIXES (BIGGER + CLEANER)
    ============================================ */
 
-.sidebar {
-  max-width: 300px !important;   /* wider left panel */
-}
+// .sidebar {
+//   max-width: 300px !important;   /* wider left panel */
+// }
 
-.author__avatar img {
-  width: 180px !important;        /* bigger profile picture */
-  height: 180px !important;
-  border-radius: 50%;
-}
+// .author__avatar img {
+//   width: 180px !important;        /* bigger profile picture */
+//   height: 180px !important;
+//   border-radius: 50%;
+// }
 
-.author__name {
-  font-size: 28px !important;     /* big name */
-  font-weight: 700;
-}
+// .author__name {
+//   font-size: 28px !important;     /* big name */
+//   font-weight: 700;
+// }
 
-.author__content {
-  font-size: 17px !important;     /* sidebar description text */
-  line-height: 1.6;
-}
+// .author__content {
+//   font-size: 17px !important;     /* sidebar description text */
+//   line-height: 1.6;
+// }
 
-.author__urls {
-  font-size: 16px !important;     /* email / github */
-}
+// .author__urls {
+//   font-size: 16px !important;     /* email / github */
+// }
 
 /* ============================================
    FOOTER REMOVAL
