@@ -8,7 +8,9 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
 
 
 @import
@@ -44,126 +46,78 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
 /* ============================================
-   Custom overrides by Thomas
+   Custom Overrides by Thomas — Lato Version
    ============================================ */
 
-/* Global font */
-body {
-  font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.55;
-}
-
-/* Heading sizes */
-h1 {
-  font-size: 28px;
-}
-h2 {
-  font-size: 22px;
-}
-h3 {
-  font-size: 18px;
-}
-
-/* Clean links: no underline, sky-blue */
-a {
-  text-decoration: none;
-  color: #1E90FF; /* sky blue */
-}
-
-a:hover {
-  text-decoration: underline;  /* delete if you want zero underline */
-  color: #0A70D1;
-}
-
-
-/* ============================================
-   Modern Styling Overrides (Thomas)
-   ============================================ */
-
-/* Global font and layout */
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #222;
-}
-
-/* Clean headings */
-h1, h2, h3, h4 {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #111;
-}
-
-h1 { font-size: 28px; margin-bottom: 12px; }
-h2 { font-size: 22px; margin-top: 24px; }
-h3 { font-size: 18px; }
-
-/* Modern link style (sky blue, no underline) */
-a {
-  text-decoration: none;
-  color: #1E90FF; /* modern sky blue */
-  font-weight: 500;
-}
-
-a:hover {
-  color: #0A70D1; /* darker hover blue */
-  text-decoration: none;
-}
-
-/* Cleaner spacing below sections */
-.page__content p,
-.page__content ul,
-.page__content ol {
-  margin-bottom: 14px;
-}
-
-/* Increase font size in the left profile sidebar */
-.author__content {
-  font-size: 16px;
-  line-height: 1.55;
-}
-
-.author__name {
-  font-size: 22px !important;
-  font-weight: 600;
-}
-
-.site-footer,
-.page__footer {
-  display: none !important;
-}
-
-
-/* Use Trebuchet MS everywhere (same as colleague's site) */
+/* Global font: Lato (modern, clean, academic) */
 body,
 .page__content,
 .page__content p,
 .page__content li,
 .author__content,
 .author__urls {
-  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  font-family: "Lato", Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
 }
 
-
-/* Modern heading style with Trebuchet MS */
+/* Headings */
 .page__content h1,
 .page__content h2,
-.page__content h3 {
-  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+.page__content h3,
+.page__content h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif !important;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #111;
 }
 
-.page__content,
+.page__content h1 { font-size: 26px !important; margin-bottom: 12px; }
+.page__content h2 { font-size: 21px !important; margin-top: 24px; }
+.page__content h3 { font-size: 17px !important; }
+
+/* Modern link style */
+a {
+  text-decoration: none !important;
+  color: #1E90FF;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0A70D1;
+  text-decoration: none !important;
+}
+
+/* Paragraph/list spacing */
 .page__content p,
-.page__content li {
-  font-size: 16px !important;
+.page__content ul,
+.page__content ol {
+  margin-bottom: 14px;
 }
 
-.page__content h1 { font-size: 24px !important; }
-.page__content h2 { font-size: 20px !important; }
-.page__content h3 { font-size: 16px !important; }
+/* Sidebar (LEFT PANEL) improvements */
+.author__name {
+  font-size: 26px !important;    /* Bigger name */
+  font-weight: 700;
+}
+
+.author__content {
+  font-size: 17px !important;     /* Slightly bigger body text */
+  line-height: 1.6;
+}
+
+.author__urls {
+  font-size: 16px !important;     /* Email/GitHub icons text */
+}
+
+.sidebar {
+  max-width: 280px !important;    /* Slightly wider sidebar */
+}
+
+/* Remove footer */
+.site-footer,
+.page__footer {
+  display: none !important;
+}
