@@ -177,21 +177,4 @@ a:hover {
   height: 1rem !important;
 }
 
-.sidebar .author__avatar img.author__avatar {
-  width: 400px !important;
-  height: auto !important;
-  max-width: none !important;
-  border-radius: 20px !important;
-  object-fit: cover !important;
-}
 
-.page__inner-wrap {
-  display: flex !important;
-  flex-direction: row !important;
-}
-
-.page__inner-wrap > .sidebar {
-  min-width: 480px !important;
-  flex: 0 0 480px !important;
-  max-width: 480px !important;
-}
