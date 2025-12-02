@@ -102,7 +102,7 @@ a:hover {
    ============================================ */
 
 .sidebar {
-  max-width: 360px !important;   /* wider left panel */
+  max-width: 430px !important;   /* wider left panel */
 }
 
 /* Big profile picture */
@@ -114,8 +114,8 @@ a:hover {
 // }
 
 .author__avatar img {
-  width: 300px !important;        /* Adjust width */
-  height: 400px !important;        /* Keep natural portrait ratio */
+  width: 350px !important;        /* Adjust width */
+  height: 4000px !important;        /* Keep natural portrait ratio */
   border-radius: 22px !important; /* Rounded rectangle (match screenshot) */
   object-fit: cover !important;   /* Prevent distortion */
   border: 3px solid #e5e5e5 !important; /* Light frame like theirs */
