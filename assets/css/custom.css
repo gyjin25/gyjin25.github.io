@@ -1,0 +1,25 @@
+/* FORCE SIDEBAR WIDTH + BIG PROFILE PHOTO */
+
+.sidebar {
+  min-width: 480px !important;
+  max-width: 480px !important;
+  flex: 0 0 480px !important;
+}
+
+/* big image */
+.sidebar .author__avatar img {
+  width: 420px !important;
+  height: auto !important;
+  border-radius: 20px !important;
+  object-fit: cover !important;
+  max-width: none !important;
+}
+
+/* override layout containers so sidebar stays large */
+.page,
+.page__inner-wrap,
+.wrapper,
+.page__content {
+  display: flex !important;
+  flex-direction: row !important;
+}
