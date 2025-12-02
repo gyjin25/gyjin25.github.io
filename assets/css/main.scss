@@ -176,3 +176,11 @@ a:hover {
 .page__content .spacer {
   height: 1rem !important;
 }
+
+.sidebar .author__avatar img.author__avatar {
+  width: 400px !important;
+  height: auto !important;
+  max-width: none !important;
+  border-radius: 20px !important;
+  object-fit: cover !important;
+}
