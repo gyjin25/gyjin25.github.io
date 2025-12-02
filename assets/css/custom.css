@@ -23,3 +23,25 @@
   display: flex !important;
   flex-direction: row !important;
 }
+
+.page-content,
+.page {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+}
+
+.page__inner-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+}
+
+.sidebar {
+  flex: 0 0 420px !important;
+}
+
+.page__content {
+  flex: 1 1 auto !important;
+  max-width: 900px !important;
+}
