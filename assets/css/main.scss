@@ -106,21 +106,21 @@ a:hover {
 }
 
 /* Big profile picture */
-// .author__avatar img {
-//   width: 240px !important;
-//   height: 240px !important;
-//   border-radius: 50%;
-//   margin-bottom: 1rem !important;
-// }
-
 .author__avatar img {
-  width: 350px !important;        /* Adjust width */
-  height: 380px !important;        /* Keep natural portrait ratio */
-  border-radius: 22px !important; /* Rounded rectangle (match screenshot) */
-  object-fit: cover !important;   /* Prevent distortion */
-  border: 3px solid #e5e5e5 !important; /* Light frame like theirs */
-  padding: 4px !important;        /* Inner spacing for cleaner border */
+  width: 350px !important; // 240 original
+  height: 350px !important;
+  border-radius: 50%;
+  margin-bottom: 1rem !important;
 }
+
+// .author__avatar img {
+//   width: 350px !important;        /* Adjust width */
+//   height: 380px !important;        /* Keep natural portrait ratio */
+//   border-radius: 22px !important; /* Rounded rectangle (match screenshot) */
+//   object-fit: cover !important;   /* Prevent distortion */
+//   border: 3px solid #e5e5e5 !important; /* Light frame like theirs */
+//   padding: 4px !important;        /* Inner spacing for cleaner border */
+// }
 
 
 /* Big name */
