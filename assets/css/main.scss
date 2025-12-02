@@ -102,8 +102,12 @@ a:hover {
    ============================================ */
 
 .sidebar {
-  max-width: 450px !important;   /* wider left panel */
+  min-width: 450px !important;
+  width: 450px !important;
+  max-width: 450px !important;
+  flex: 0 0 450px !important;
 }
+
 
 /* Big profile picture */
 // .author__avatar img {
