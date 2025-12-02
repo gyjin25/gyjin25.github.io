@@ -184,3 +184,14 @@ a:hover {
   border-radius: 20px !important;
   object-fit: cover !important;
 }
+
+.page__inner-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.page__inner-wrap > .sidebar {
+  min-width: 480px !important;
+  flex: 0 0 480px !important;
+  max-width: 480px !important;
+}
