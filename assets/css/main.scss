@@ -106,12 +106,12 @@ a:hover {
 }
 
 /* Big profile picture */
-.author__avatar img {
-  width: 300px !important; // 240 original
-  height: 300px !important;
-  border-radius: 50%;
-  margin-bottom: 1rem !important;
-}
+// .author__avatar img {
+//   width: 300px !important; // 240 original
+//   height: 300px !important;
+//   border-radius: 50%;
+//   margin-bottom: 1rem !important;
+// }
 
 // .author__avatar img {
 //   width: 350px !important;        /* Adjust width */
@@ -121,6 +121,14 @@ a:hover {
 //   border: 3px solid #e5e5e5 !important; /* Light frame like theirs */
 //   padding: 4px !important;        /* Inner spacing for cleaner border */
 // }
+
+.author__avatar img {
+  width: 280px !important;
+  height: auto !important;
+  border-radius: 20px !important;
+  object-fit: cover !important;
+}
+
 
 
 /* Big name */
