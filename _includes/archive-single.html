@@ -34,9 +34,17 @@
       {% endif %}
     </h2> -->
     
-    <h2 class="archive__item-title" itemprop="headline">
-  {{ title }}
-    </h2>
+  <h2 class="archive__item-title" itemprop="headline" style="text-decoration:none; cursor:default;">
+    {{ title }}
+  </h2>
+
+  <style>
+  .archive__item-title:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  </style>
+
 
     
     {% if post.read_time %}
@@ -52,7 +60,6 @@
         {% endif %}
 
       {% elsif post.collection == 'publications' %}
-        {# do NOT show date, do NOT show venue, do NOT show 1900 #}
         {% if post.venue %}
           <p>{{ post.venue }}</p>
         {% endif %}
