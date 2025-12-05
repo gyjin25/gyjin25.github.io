@@ -243,3 +243,16 @@
     }
   }
 }
+
+
+/* Override bold + hover underline for archive titles */
+.archive__item-title {
+  font-weight: normal !important;
+  text-decoration: none !important;
+  font-size: 1.0rem !important;   /* ← THIS makes it smaller */
+}
+
+
+.archive__item:hover .archive__item-title {
+  text-decoration: none !important;
+}
