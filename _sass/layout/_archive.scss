@@ -247,7 +247,7 @@
 
 /* Override bold + hover underline for archive titles */
 .archive__item-title {
-  font-weight: normal !important;
+  font-weight: 600 !important;
   text-decoration: none !important;
   font-size: 1.0rem !important;   /* ← THIS makes it smaller */
 }
