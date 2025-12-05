@@ -10,7 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Thomas Choi"
-title_separator          : "-"
+title_separator          : "|"
 name                     : &name "Thomas Choi"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://gyjin25.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
@@ -80,12 +80,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  working:
+    title: 'Working Papers'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Publication'    
+  progress:
+    title: 'Work in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -220,9 +220,6 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /research/:path/
   publications:
     output: true
     permalink: /:collection/:path/
