@@ -102,10 +102,10 @@ a:hover {
    ============================================ */
 
 .sidebar {
-  min-width: 300px !important;
-  width: 300px !important;
-  max-width: 300px !important;
-  flex: 0 0 300px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+  max-width: 250px !important;
+  flex: 0 0 250px !important;
 }
 
 @media (min-width: 1024px) {
@@ -132,7 +132,7 @@ a:hover {
 // }
 
 .author__avatar img {
-  width: 275px !important;
+  width: 225px !important;
   height: auto !important;
   border-radius: 20px !important;
   object-fit: cover !important;
