@@ -102,12 +102,17 @@ a:hover {
    ============================================ */
 
 .sidebar {
-  min-width: 450px !important;
-  width: 450px !important;
-  max-width: 450px !important;
-  flex: 0 0 450px !important;
+  min-width: 300px !important;
+  width: 300px !important;
+  max-width: 300px !important;
+  flex: 0 0 300px !important;
 }
 
+@media (min-width: 1024px) {
+  .page {
+    margin-left: 300px !important;
+  }
+}
 
 /* Big profile picture */
 // .author__avatar img {
@@ -127,7 +132,7 @@ a:hover {
 // }
 
 .author__avatar img {
-  width: 400px !important;
+  width: 275px !important;
   height: auto !important;
   border-radius: 20px !important;
   object-fit: cover !important;
