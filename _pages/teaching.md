@@ -4,24 +4,19 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-## Teaching Awards & Evaluations
+### Teaching Evaluations
 
-1. **List of Teachers Ranked as Excellent by Their Students** (UIUC, Spring 2025)
-2. Teaching evaluations available upon request
+Teaching evaluations available upon request
 
 <div style="height:0.5rem"></div>
-
-## University of Illinois at Urbana-Champaign (UIUC)
 
 ### Teaching Assistant, University of Illinois Urbana-Champaign
-- Economic Statistics 2 (ECON 203, Undergraduate): Fall 2024, Spring 2025<sup>†</sup>, Fall 2025, Spring 2026  
+- Economic Statistics 2 (Undergraduate): Fall 2024, Spring 2025<sup>†</sup>, Fall 2025, Spring 2026  
     <span style="font-size: 0.9em; color: #555;"><sup>†</sup> Named to the List of Teachers Ranked as Excellent by Their Students</span>
-
-<sup>†</sup> Named to the List of Teachers Ranked as Excellent by Their Students
 
 <div style="height:0.5rem"></div>
 
-## Sungkyunkwan University (SKKU)
+## Teaching Assistant, Sungkyunkwan University (SKKU)
 
 - Econometrics 1 (Graduate): Fall 2022
 - Machine Learning and Economic Forecasting (Graduate): Spring 2022
