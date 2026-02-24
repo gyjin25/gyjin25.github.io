@@ -1,5 +1,6 @@
 ---
-title: ""
+# title: ""
+title: "Teaching Assistant Experience"
 collection: teaching
 layout: single
 permalink: /teaching/teaching1
