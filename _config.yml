@@ -229,6 +229,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research: # NEW ADDED 022426
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -286,7 +289,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  # _research # NEW ADDED 022426
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      
 
 # Sass/SCSS
 sass:
