@@ -12,7 +12,8 @@ main:
   #   url: /Home/
   
   - title: "CV"
-    url: /files/Thomas_CV_2025.pdf
+    # url: /files/Thomas_CV_2025.pdf
+    url: /cv/
 
   - title: "Research"
     url: /research/
