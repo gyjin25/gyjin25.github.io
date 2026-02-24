@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,13 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
+- Ph.D. in Economics, University of Illinois at Urbana-Champaign, 2023–present  
+- M.A. in Economics, Sungkyunkwan University, 2023  
+- B.A. in Economics and B.S. in Data Science, Sungkyunkwan University, 2021  
+
+Detailed CV available upon request.
+
+Email me at tgchoi2@illinois.edu.
+
+<!-- Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
@@ -61,4 +65,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
