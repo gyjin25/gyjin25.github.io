@@ -1,8 +1,8 @@
 ---
-layout: single
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
+title: ""
+collection: teaching
+type:
+permalink: /teaching/teaching1
 ---
 
 ### Teaching Assistant, University of Illinois Urbana-Champaign
