@@ -51,13 +51,13 @@ let setTheme = () => {
 
 let determineComputedTheme = () => "light"; // for Plotly below
 
-// Toggle the theme manually
-var toggleTheme = () => {
-  const current_theme = $("html").attr("data-theme");
-  const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
-  setTheme(new_theme);
-};
+// // Toggle the theme manually
+// var toggleTheme = () => {
+//   const current_theme = $("html").attr("data-theme");
+//   const new_theme = current_theme === "dark" ? "light" : "dark";
+//   localStorage.setItem("theme", new_theme);
+//   setTheme(new_theme);
+// };
 
 /* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
@@ -106,7 +106,7 @@ $(document).ready(function () {
   setTheme();
 
   // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  // $('#theme-toggle').on('click', toggleTheme);
 
   // Enable the sticky footer
   var bumpIt = function () {
